@@ -22,3 +22,4 @@ Route::get('/produtos/novo', 'ProdutoController@novo');
 Route::post('/produtos/adiciona', 'ProdutoController@adiciona');
 Route::post('/produtos/exclui', 'ProdutoController@exclui');
 Route::post('/produtos/edita', 'ProdutoController@edita');
+Route::get('/index.html', 'ProdutoController@home');
