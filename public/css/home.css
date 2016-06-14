@@ -1,0 +1,32 @@
+.navbar-header button {
+	color: #fff
+}
+.fullscreen {
+	width:100%;
+}
+main {
+	padding-top:90px;
+}
+footer {
+	background:#333;
+	color:#fff;
+	padding:10px 0;
+	padding-bottom: 5px;
+	text-align:center;
+}
+
+
+.botoes{
+	background-color: #333;
+	color:#fff;
+	width: 150px;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border: 0px;
+}
+.novidades{
+	padding: 10px;
+	border: 10px;
+}

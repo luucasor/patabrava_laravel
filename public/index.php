@@ -5,36 +5,8 @@
 		<title>Loja virtual</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" href="css/home.css" />
 		<meta name="viewport" content="width=device-width" />
-		<style>
-			.navbar-header button {
-				color: #fff
-			}
-			.fullscreen {
-				width:100%;
-			}
-			main {
-				padding-top:50px;
-			}
-			footer {
-				background:#333;
-				color:#fff;
-				padding:20px 0;
-				text-align:center;
-			}
-			#banner{
-				padding-top:50px;	
-			}
-			#submenu{
-				background: blank;
-				padding-top:15px;
-				font-size: 15px;
-			}
-			.botoes{
-				border-color: blank;
-				font-weight: bold;
-			}
-		</style>
 	</head>
 	<body>
 		<header>
@@ -55,52 +27,33 @@
           				</form>
   					</div>
 					<div class="container-fluid">
-						<div class="row">
-  							<div class="collapse navbar-collapse navbar-inverse" id="submenu">
-            		 	 		<a class="botoes col-xs-4 col-sm-4 col-md-2 text-center btn btn-default">Anéis</a>
-	            		 		<a class="botoes col-xs-4 col-sm-4 col-md-2 text-center btn btn-default">Brincos</a>
-	            		 		<a class="botoes col-xs-4 col-sm-4 col-md-2 text-center btn btn-default">Colares</a>
-	            		 		<a class="botoes col-xs-4 col-sm-4 col-md-2 text-center btn btn-default">Pulseiras</a>
-	            		 		<a class="botoes col-xs-4 col-sm-4 col-md-2 text-center btn btn-default">Tal mãe/filha</a>
-	            			 	<a class="botoes col-xs-4 col-sm-4 col-md-2 text-center btn btn-default">Unissex</a>
-  							</div>
+						<div class="text-center row">
+							<div class="collapse navbar-collapse navbar-inverse" id="submenu">
+								    <button type="button" class="btn btn-default botoes">Anéis</button>
+								    <button type="button" class="btn btn-default botoes">Brincos</button>
+								    <button type="button" class="btn btn-default botoes">Colares</button>
+								    <button type="button" class="btn btn-default botoes">Pulseiras</button>
+								    <button type="button" class="btn btn-default botoes">Tal Mãe/Filha</button>
+								    <button type="button" class="btn btn-default botoes">Unissex</button>
+								</div>
+							</div>
   						</div>
   					</div>
 				</nav>
 			</div>
 		</header>
 		<main>
-			<div class="container-fluid">
-				<div class="row" id="banner">
-					<div id="carousel" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner" role="listbox">
-							<div class="item active">
-								<img src="img/banner1.jpg" alt="Moda" class="fullscreen" />
-							</div>
-							<div class="item">
-								<img src="img/banner2.jpg" alt="Moda Infantil" class="fullscreen" />
-							</div>
-						</div>
-						<a href="#carousel" class="left carousel-control" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left"></span>
-						</a>
-						<a href="#carousel" class="right carousel-control" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right"></span>
-						</a>
-					</div>
-				</div>
-			</div>
 			
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12">
+					<div class="text-center thumbnail">
 						<div id="novidades">
-							<h3 class="text-center">Novidades</h3>
+							<h3>Novidades</h3>
 						</div>
 
-						<div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=”1s”>
+						<div class="col-xs-12 col-md-4 col-sm-4 thumbnail text-center wow fadeInUp" data-wow-delay=”1s”>
 							<figure>
-								<img src="img/camisa-azul.png" alt="Camisa azul importada" />
+								<img class="img-responsive img-rounded" src="img/pata.jpg" />
 
 								<div>
 									<h4>Camisa Azul Importada</h4>
@@ -119,9 +72,9 @@
 							</div>
 						</div>
 
-						<div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=”1s”>
+						<div class="col-xs-12 col-md-4 col-sm-4 thumbnail text-center wow fadeInUp" data-wow-delay=”1s”>
 							<figure>
-								<img src="img/camisa-rosa.png" alt="Camisa rosa argentina" />
+								<img class="img-responsive img-rounded" src="img/pata2.jpg" />
 
 								<div>
 									<h4>Camisa Rosa Argentina</h4>
@@ -140,13 +93,13 @@
 							</div>
 						</div>
 
-						<div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=”1s”>
+						<div class="col-xs-12 col-md-4 col-sm-4 thumbnail text-center wow fadeInUp" data-wow-delay=”1s”>
 							<figure>
-								<img src="img/camisa-azul.png" alt="Camisa azul nacional" />
+								<img class="img-responsive img-rounded" src="img/pata3.jpg" />
 
 								<div>
 									<h4>Camisa Azul Nacional</h4>
-									<p>Camisa azul nacional com preço acessível e bonita</p>
+									<p>Camisa azul nacional com preço acessível e bonita com preço acessível e bonita</p>
 								</div>
 							</figure>
 							<div class="btn-group">
@@ -165,9 +118,9 @@
 							<h3 class="text-center">Mais Vendidos</h3>
 						</div>
 
-						<div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=”1s”>
+						<div class="col-xs-12 col-md-4 col-sm-4 thumbnail text-center wow fadeInUp" data-wow-delay=”1s”>
 							<figure>
-								<img src="img/camisa-azul.png" alt="Camisa azul importada" />
+								<img class="img-responsive img-rounded" src="img/pata4.jpg" alt="Camisa azul importada" />
 
 								<div>
 									<h4>Camisa Azul Importada</h4>
@@ -186,9 +139,9 @@
 							</div>
 						</div>
 
-						<div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=”1s”>
+						<div class="col-xs-12 col-md-4 col-sm-4 thumbnail text-center wow fadeInUp" data-wow-delay=”1s”>
 							<figure>
-								<img src="img/camisa-rosa.png" alt="Camisa rosa argentina" />
+								<img class="img-responsive img-rounded" src="img/pata5.jpg" alt="Camisa rosa argentina" />
 
 								<div>
 									<h4>Camisa Rosa Argentina</h4>
@@ -207,13 +160,13 @@
 							</div>
 						</div>
 
-						<div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay=”1s”>
+						<div class="col-xs-12 col-md-4 col-sm-4 thumbnail text-center wow fadeInUp" data-wow-delay=”1s”>
 							<figure>
-								<img src="img/camisa-azul.png" alt="Camisa azul nacional" />
+								<img class="img-responsive img-rounded" src="img/pata6.jpg" alt="Camisa azul nacional" />
 
 								<div>
 									<h4>Camisa Azul Nacional</h4>
-									<p>Camisa azul nacional com preço acessível e bonita</p>
+									<p>Camisa azul nacional com preço acessível e bonita com preço acessível e bonita</p>
 								</div>
 							</figure>
 							<div class="btn-group">
